@@ -29,6 +29,7 @@ header {
 	position: relative;
 	z-index: 99999;
 	pointer-events: none;
+	-webkit-overflow-scrolling: touch;
 }
 
 @supports ((position:sticky) or (position:-webkit-sticky)) {
@@ -48,6 +49,7 @@ header {
 	position: -webkit-sticky;
 	position: sticky;
 	pointer-events: none;
+	-webkit-overflow-scrolling: touch;
 
 }
 
