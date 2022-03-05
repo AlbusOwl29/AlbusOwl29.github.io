@@ -1,0 +1,107 @@
+@media (min-width: 320px) and (max-width: 330px) {
+	.nav a {
+    	padding: 13px 12px;
+  }
+}
+
+@media (min-width: 330px) and (max-width: 336px) {
+	.nav a {
+    	padding: 13px 13px;
+  }
+}
+
+@media (min-width: 336px) and (max-width: 341px) {
+	.nav a {
+    	padding: 13px 14px;
+  }
+}
+
+@media (min-width: 341px) and (max-width: 351px) {
+	.nav a {
+    	padding: 13px 15px;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 356px) {
+	.nav a {
+    	padding: 13px 16px;
+  }
+}
+
+@media (min-width: 356px) and (max-width: 361px) {
+	.nav a {
+    	padding: 13px 17px;
+  }
+}
+
+@media (min-width: 356px) and (max-width: 364px) {
+	.nav a {
+    	padding: 13px 17px;
+  }
+}
+
+@media (min-width: 364px) and (max-width: 372px) {
+	.nav a {
+    	padding: 13px 18px;
+  }
+}
+
+@media (min-width: 372px) and (max-width: 380px) {
+	.nav a {
+    	padding: 13px 19px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 388px) {
+	.nav a {
+    	padding: 13px 20px;
+  }
+}
+
+@media (min-width: 388px) and (max-width: 396px) {
+	.nav a {
+    	padding: 13px 21px;
+  }
+}
+
+@media (min-width: 396px) and (max-width: 404px) {
+	.nav a {
+    	padding: 13px 22px;
+  }
+}
+
+@media (min-width: 404px) and (max-width: 412px) {
+	.nav a {
+    	padding: 13px 23px;
+  }
+}
+
+@media (min-width: 412px) and (max-width: 420px) {
+	.nav a {
+    	padding: 13px 24px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 428px) {
+	.nav a {
+    	padding: 13px 25px;
+  }
+}
+
+@media (min-width: 428px) and (max-width: 436px) {
+	.nav a {
+    	padding: 13px 26px;
+  }
+}
+
+@media (min-width: 436px) and (max-width: 442px) {
+	.nav a {
+    	padding: 13px 27px;
+  }
+}
+
+@media only screen and (max-height : 240px) {
+	footer {
+		display: none;
+	}
+}
