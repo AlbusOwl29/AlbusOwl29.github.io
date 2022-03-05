@@ -28,6 +28,7 @@ header {
 	border-bottom-width: 1px;
 	position: relative;
 	z-index: 99999;
+	pointer-events: none;
 }
 
 @supports ((position:sticky) or (position:-webkit-sticky)) {

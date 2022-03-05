@@ -13,8 +13,9 @@ body {
 
     width: 100%;
     height: auto;
-    -webkit-overflow-scrolling: touch;
-    -webkit-appearance: none;
+    -webkit-text-size-adjust: none;
+	-webkit-overflow-scrolling: touch;
+	-webkit-appearance: none;
 }
 
 header {
@@ -27,6 +28,14 @@ header {
 	border-bottom-width: 1px;
 	position: relative;
 	z-index: 99999;
+	pointer-events: none;
+}
+
+@supports ((position:sticky) or (position:-webkit-sticky)) {
+	.nav {
+		position: -webkit-sticky;
+		position: sticky;
+	}
 }
 
 .nav {
@@ -37,14 +46,6 @@ header {
 	transition: all .4s ease; 
 	position: -webkit-sticky;
 	position: sticky;
-	pointer-events: none;
-}
-
-@supports ((position:sticky) or (position:-webkit-sticky)) {
-	.nav {
-		position: -webkit-sticky;
-		position: sticky;
-	}
 }
 
 .nav_hidden {
