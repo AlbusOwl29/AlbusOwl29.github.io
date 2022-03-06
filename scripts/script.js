@@ -29,3 +29,21 @@ $(document).ready(() => {
   onScrollNav() // вызываем основную функцию onScrollHeader
 
 })
+
+function preventDefault(e){
+    e.preventDefault();
+}
+
+function disableScroll(){
+    document.body.addEventListener('touchmove', preventDefault, { passive: false });
+}
+function enableScroll(){
+    document.body.removeEventListener('touchmove', preventDefault, { passive: false });
+}
+
+$(document).bind(
+      'touchmove',
+          function(e) {
+            e.preventDefault();
+          }
+);
