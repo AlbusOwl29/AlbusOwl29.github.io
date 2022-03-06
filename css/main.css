@@ -5,9 +5,8 @@ body {
 	font-family: 'Roboto', sans-serif; 
 	background-color: #c79fef;
 	-webkit-text-size-adjust: none;
-	-webkit-overflow-scrolling: auto !important;
+	-webkit-overflow-scrolling: touch;  
 	-webkit-appearance: none;
-	overscroll-behavior: none;
 }
 
 .container {
@@ -15,9 +14,9 @@ body {
     width: 100%;
     height: auto;
     -webkit-text-size-adjust: none;
-	-webkit-overflow-scrolling: auto !important;
+	-webkit-overflow-scrolling: touch;  
 	-webkit-appearance: none;
-	overscroll-behavior: none;
+   
 }
 
 header {
@@ -30,15 +29,6 @@ header {
 	border-bottom-width: 1px;
 	position: relative;
 	z-index: 99999;
-	-webkit-overflow-scrolling: auto !important;
-	overscroll-behavior: none;
-}
-
-@supports ((position:sticky) or (position:-webkit-sticky)) {
-	.nav {
-		position: sticky;
-		position: -webkit-sticky;
-	}
 }
 
 .nav {
@@ -49,8 +39,6 @@ header {
 	transition: all .4s ease; 
 	position: sticky;
 	position: -webkit-sticky;
-	-webkit-overflow-scrolling: auto !important;
-	overscroll-behavior: none;
 }
 
 .nav_hidden {
