@@ -111,40 +111,45 @@ footer p {
 	padding: 0;
 }
 
+@media (min-width: 308px) and (max-width: 314px) {
+	.nav a {
+    	padding: 13px 11px;
+  }
+}
 
-@media (min-width: 320px) and (max-width: 330px) {
+@media (min-width: 314px) and (max-width: 320px) {
 	.nav a {
     	padding: 13px 12px;
   }
 }
 
-@media (min-width: 330px) and (max-width: 336px) {
+@media (min-width: 320px) and (max-width: 324px) {
+	.nav a {
+    	padding: 13px 12px;
+  }
+}
+
+@media (min-width: 324px) and (max-width: 332px) {
 	.nav a {
     	padding: 13px 13px;
   }
 }
 
-@media (min-width: 336px) and (max-width: 341px) {
+@media (min-width: 332px) and (max-width: 340px) {
 	.nav a {
     	padding: 13px 14px;
   }
 }
 
-@media (min-width: 341px) and (max-width: 351px) {
+@media (min-width: 340px) and (max-width: 348px) {
 	.nav a {
     	padding: 13px 15px;
   }
 }
 
-@media (min-width: 351px) and (max-width: 356px) {
+@media (min-width: 348px) and (max-width: 356px) {
 	.nav a {
     	padding: 13px 16px;
-  }
-}
-
-@media (min-width: 356px) and (max-width: 361px) {
-	.nav a {
-    	padding: 13px 17px;
   }
 }
 
@@ -208,9 +213,32 @@ footer p {
   }
 }
 
-@media (min-width: 436px) and (max-width: 442px) {
+@media (min-width: 436px) and (max-width: 444px) {
 	.nav a {
     	padding: 13px 27px;
+  }
+}
+
+@media (min-width: 444px) and (max-width: 452px) {
+	.nav a {
+    	padding: 13px 28px;
+  }
+}
+
+@media (min-width: 452px) and (max-width: 460px) {
+	.nav a {
+    	padding: 13px 29px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 468px) {
+	.nav a {
+    	padding: 13px 30px;
+  }
+}
+@media (min-width: 468px) and (max-width: 476px) {
+	.nav a {
+    	padding: 13px 31px;
   }
 }
 
