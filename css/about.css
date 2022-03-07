@@ -11,9 +11,20 @@ main p {
 	padding-bottom: 2%;
 }
 
+.contacts {
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+	width: 40%;
+	height: 32%;
+	margin: 2% 0 0 2%;
+	background-color: white;
+}
+
 .contacts ul {
 
-	padding: 0 0 0 2%;
+	padding: 0 0 0 6%;
 }
 
 .contacts h3 {
@@ -26,7 +37,21 @@ main p {
 	list-style-type: square;
 }
 
+@media (min-width: 600px) and (max-width: 800px) {
+	.contacts  {
+    	width: 60%;
+    }
+}
 
+@media (min-width: 800px) and (max-width: 1000px) {
+	.contacts  {
+    	width: 70%;
+    }
+}
 
+@media (min-width: 360px) and (max-width: 476px) {
+	.contacts  {
+    	width: 96%;
+    }
 
 
