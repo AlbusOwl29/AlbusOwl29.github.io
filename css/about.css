@@ -11,7 +11,20 @@ main p {
 	padding-bottom: 2%;
 }
 
+.contacts ul {
 
+	padding: 0 0 0 2%;
+}
+
+.contacts h3 {
+
+	padding: 2% 0 0 2%;
+}
+
+.contacts ul {
+
+	list-style-type: square;
+}
 
 
 
