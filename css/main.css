@@ -213,32 +213,9 @@ footer p {
   }
 }
 
-@media (min-width: 436px) and (max-width: 444px) {
+@media (min-width: 436px) and (max-width: 450px) {
 	.nav a {
     	padding: 13px 27px;
-  }
-}
-
-@media (min-width: 444px) and (max-width: 452px) {
-	.nav a {
-    	padding: 13px 28px;
-  }
-}
-
-@media (min-width: 452px) and (max-width: 460px) {
-	.nav a {
-    	padding: 13px 29px;
-  }
-}
-
-@media (min-width: 460px) and (max-width: 468px) {
-	.nav a {
-    	padding: 13px 30px;
-  }
-}
-@media (min-width: 468px) and (max-width: 476px) {
-	.nav a {
-    	padding: 13px 31px;
   }
 }
 
