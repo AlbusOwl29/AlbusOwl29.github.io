@@ -11,6 +11,17 @@ main p {
 	padding-bottom: 2%;
 }
 
+.about {
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+	width: 40%;
+	height: 32%;
+	margin: 2% 0 0 2%;
+	background-color: white;
+}
+
 .contacts {
 
 	border-width: 1px;
@@ -20,6 +31,11 @@ main p {
 	height: 32%;
 	margin: 2% 0 0 2%;
 	background-color: white;
+}
+
+.about h3 {
+
+	padding: 2% 0 0 2%;
 }
 
 .contacts ul {
@@ -38,84 +54,84 @@ main p {
 }
 
 @media only screen and (max-width: 560px) {
-	.contacts {
+	.contacts, .about {
 		width: 96%;
 	}
 
 }
 
 @media (min-width: 560px) and (max-width: 600px) {
-	.contacts {
+	.contacts, .about {
 		width: 94%;
 	}
 
 }
 
 @media (min-width: 600px) and (max-width: 640px) {
-	.contacts {
+	.contacts, .about {
 		width: 90%;
 	}
 
 }
 
 @media (min-width: 640px) and (max-width: 700px) {
-	.contacts {
+	.contacts, .about {
 		width: 84%;
 	}
 
 }
 
 @media (min-width: 700px) and (max-width: 780px) {
-	.contacts {
+	.contacts, .about  {
 		width: 76%;
 	}
 
 }
 
 @media (min-width: 780px) and (max-width: 880px) {
-	.contacts {
+	.contacts, .about {
 		width: 68%;
 	}
 
 }
 
 @media (min-width: 880px) and (max-width: 960px) {
-	.contacts {
+	.contacts, .about {
 		width: 62%;
 	}
 
 }
 
 @media (min-width: 960px) and (max-width: 1040px) {
-	.contacts {
+	.contacts, .about {
 		width: 56%;
 	}
 
 }
 
 @media (min-width: 1040px) and (max-width: 1100px) {
-	.contacts {
+	.contacts, .about {
 		width: 52%;
 	}
 
 }
 
 @media (min-width: 1100px) and (max-width: 1160px) {
-	.contacts {
+	.contacts, .about {
 		width: 50%;
 	}
 
 }
 
 @media (min-width: 1160px) and (max-width: 1260px) {
-	.contacts {
+	.contacts, .about {
 		width: 46%;
 	}
 
 }
 
 @media (min-width: 1260px) and (max-width: 1330px) {
-	.contacts {
+	.contacts, .about {
 		width: 42%;
 	}
 
