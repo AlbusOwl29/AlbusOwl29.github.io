@@ -17,7 +17,7 @@ main p {
 	border-style: solid;
 	border-color: red;
 	width: 40%;
-	height: 30vh;
+	height: 30%;
 	margin: 2% 0 0 2%;
 	background-color: white;
 }
@@ -28,7 +28,7 @@ main p {
 	border-style: solid;
 	border-color: red;
 	width: 40%;
-	height: 30vh;
+	height: 30%;
 	margin: 2% 0 0 2%;
 	background-color: white;
 }
@@ -39,7 +39,7 @@ main p {
 	border-style: solid;
 	border-color: red;
 	width: 40%;
-	height: 30vh;
+	height: 30%;
 	margin: 2% 0 2% 2%;
 	background-color: white;
 }
@@ -95,7 +95,7 @@ main p {
 }
 
 @media (min-width: 640px) and (max-width: 700px) {
-	.contacts, .about {
+	.contacts, .about, .links {
 		width: 84%;
 	}
 
