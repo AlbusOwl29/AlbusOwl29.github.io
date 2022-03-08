@@ -2,7 +2,7 @@ main {
 
 	display: inline-block;
 	width: 100%;
-	min-height: 120vh;
+	min-height: 80%;
 }
 
 main p {
@@ -17,7 +17,18 @@ main p {
 	border-style: solid;
 	border-color: red;
 	width: 40%;
-	height: 32%;
+	height: 30vh;
+	margin: 2% 0 0 2%;
+	background-color: white;
+}
+
+.links {
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+	width: 40%;
+	height: 30vh;
 	margin: 2% 0 0 2%;
 	background-color: white;
 }
@@ -28,8 +39,8 @@ main p {
 	border-style: solid;
 	border-color: red;
 	width: 40%;
-	height: 32%;
-	margin: 2% 0 0 2%;
+	height: 30vh;
+	margin: 2% 0 2% 2%;
 	background-color: white;
 }
 
@@ -38,9 +49,9 @@ main p {
 	padding: 2% 0 0 2%;
 }
 
-.contacts ul {
+.links h3 {
 
-	padding: 0 0 0 6%;
+	padding: 2% 0 0 2%;
 }
 
 .contacts h3 {
@@ -48,10 +59,19 @@ main p {
 	padding: 2% 0 0 2%;
 }
 
+
+.links ul {
+
+	padding: 0 0 0 3%;
+	list-style-type: none;
+}
+
 .contacts ul {
 
+	padding: 0 0 0 6%;
 	list-style-type: square;
 }
+
 
 @media only screen and (max-width: 560px) {
 	.contacts, .about {
