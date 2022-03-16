@@ -26,6 +26,8 @@ $(document).ready(() => {
 
   }
 
-  onScrollNav() // вызываем основную функцию onScrollHeader
+  onScrollNav()
 
 })
+
+

@@ -54,7 +54,12 @@ main h2 {
 	width: 100%;	
 }
 
-@media (min-width: 0px) and (max-width: 720px) {
+@media (max-width: 450px) {
+
+	
+}
+
+@media (min-width: 0px) and (max-width: 740px) {
 	.article_tree {
 		display: none;
 	}
@@ -64,7 +69,7 @@ main h2 {
 }
 
 
-@media (min-width: 720px) and (max-width: 840px) {
+@media (min-width: 740px) and (max-width: 840px) {
 	.article_tree  {
     	width: 30%;
     	margin: 2% 2% 4% 0;

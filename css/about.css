@@ -19,7 +19,7 @@ main p {
 	box-shadow: 2px 6px 10px black;
 	width: 40%;
 	height: 30%;
-	margin: 2% 2% 2% 2%;
+	margin: 2% 0% 2% 2%;
 	background-color: white;
 }
 
@@ -45,6 +45,13 @@ main p {
 @media only screen and (max-width: 560px) {
 	#info {
 		width: 96%;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+	#info {
+		margin: 2% 0% 4% 2%;
 	}
 
 }
