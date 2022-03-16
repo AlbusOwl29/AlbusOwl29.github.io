@@ -11,50 +11,19 @@ main p {
 	padding-bottom: 2%;
 }
 
-.about {
+#info {
 
 	border-width: 1px;
 	border-style: solid;
-	border-color: red;
+	border-color: black;
+	box-shadow: 2px 6px 10px black;
 	width: 40%;
 	height: 30%;
-	margin: 2% 0 0 2%;
+	margin: 2% 2% 2% 2%;
 	background-color: white;
 }
 
-.links {
-
-	border-width: 1px;
-	border-style: solid;
-	border-color: red;
-	width: 40%;
-	height: 30%;
-	margin: 2% 0 0 2%;
-	background-color: white;
-}
-
-.contacts {
-
-	border-width: 1px;
-	border-style: solid;
-	border-color: red;
-	width: 40%;
-	height: 30%;
-	margin: 2% 0 2% 2%;
-	background-color: white;
-}
-
-.about h3 {
-
-	padding: 2% 0 0 2%;
-}
-
-.links h3 {
-
-	padding: 2% 0 0 2%;
-}
-
-.contacts h3 {
+#info h3 {
 
 	padding: 2% 0 0 2%;
 }
@@ -74,84 +43,84 @@ main p {
 
 
 @media only screen and (max-width: 560px) {
-	.contacts, .about, .links {
+	#info {
 		width: 96%;
 	}
 
 }
 
 @media (min-width: 560px) and (max-width: 600px) {
-	.contacts, .about, .links {
+	#info {
 		width: 94%;
 	}
 
 }
 
 @media (min-width: 600px) and (max-width: 640px) {
-	.contacts, .about, .links {
+	#info {
 		width: 90%;
 	}
 
 }
 
 @media (min-width: 640px) and (max-width: 700px) {
-	.contacts, .about, .links {
+	#info {
 		width: 84%;
 	}
 
 }
 
 @media (min-width: 700px) and (max-width: 780px) {
-	.contacts, .about, .links  {
+	#info  {
 		width: 76%;
 	}
 
 }
 
 @media (min-width: 780px) and (max-width: 880px) {
-	.contacts, .about, .links {
+	#info {
 		width: 68%;
 	}
 
 }
 
 @media (min-width: 880px) and (max-width: 960px) {
-	.contacts, .about, .links {
+	#info {
 		width: 62%;
 	}
 
 }
 
 @media (min-width: 960px) and (max-width: 1040px) {
-	.contacts, .about, .links {
+	#info {
 		width: 56%;
 	}
 
 }
 
 @media (min-width: 1040px) and (max-width: 1100px) {
-	.contacts, .about, .links {
+	#info {
 		width: 52%;
 	}
 
 }
 
 @media (min-width: 1100px) and (max-width: 1160px) {
-	.contacts, .about, .links {
+	#info {
 		width: 50%;
 	}
 
 }
 
 @media (min-width: 1160px) and (max-width: 1260px) {
-	.contacts, .about, .links {
+	#info {
 		width: 46%;
 	}
 
 }
 
 @media (min-width: 1260px) and (max-width: 1330px) {
-	.contacts, .about, .links {
+	#info {
 		width: 42%;
 	}
 
