@@ -54,11 +54,6 @@ main h2 {
 	width: 100%;	
 }
 
-@media (max-width: 450px) {
-
-	
-}
-
 @media (min-width: 0px) and (max-width: 740px) {
 	.article_tree {
 		display: none;
