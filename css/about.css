@@ -1,3 +1,8 @@
+html, body, .container {
+
+	min-height: 100vh;
+}
+
 main {
 
 	display: inline-block;
@@ -40,7 +45,6 @@ main p {
 	padding: 0 0 0 6%;
 	list-style-type: square;
 }
-
 
 @media only screen and (max-width: 560px) {
 	#info {

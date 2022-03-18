@@ -1,0 +1,13 @@
+main {
+
+	display: inline-block;
+	width: 100%;
+	min-height: 120vh;
+}
+
+main p {
+
+	margin: 0 2% 0 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}

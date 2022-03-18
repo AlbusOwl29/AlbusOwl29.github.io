@@ -98,7 +98,6 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #DDA0DD;
-    min-width: 30%;
     box-shadow: 2px 6px 10px black;
     font-weight: bolder;
     z-index: 1;
