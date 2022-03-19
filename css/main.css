@@ -70,9 +70,12 @@ header h2 {
     text-align: center;
     padding: 13px 18px;
     text-decoration: none;
-    border-color: #c79fef;
-    border-style: solid;
-    border-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #c79fef;
+    border-bottom-style: solid; 
+    border-bottom-width: 1px;
+    border-bottom-color: #c79fef;
     z-index: 1;
 }
 
