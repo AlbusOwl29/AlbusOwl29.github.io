@@ -10,6 +10,11 @@
 		flex-basis: auto;
   		flex-grow: 1;
 	}
+
+	.dropdown-content {
+
+		width: 31%;
+	}
 }
 
 @media only screen and (max-height : 240px) {
