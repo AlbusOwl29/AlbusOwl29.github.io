@@ -25,7 +25,7 @@ header {
 header h2 {
 
 	color: #fff;
-	padding: 4vh 0 4vh 4vh;
+	padding: 4vh 0 4vh 3vh;
 }
 
 .container {
@@ -56,7 +56,6 @@ header h2 {
     list-style-type: none;
     overflow: hidden;
     background-color: #000;
-
 }
 
 .nav li {
@@ -69,7 +68,7 @@ header h2 {
     display: inline-block;
     color: #fff;
     text-align: center;
-    padding: 13px 17px;
+    padding: 13px 18px;
     text-decoration: none;
     border-color: #c79fef;
     border-style: solid;
@@ -79,17 +78,17 @@ header h2 {
 
 .nav li a:hover:not(.active) {
 
-    background-color: #6e6d6d;
+    background-color: #d90f0f;
 }
 
 .nav .active {
 
-    background-color: #9932CC;
+    background-color: #9651b5;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
 
-    background-color: red;
+    background-color: #29ab27;
 }
 
 li.dropdown {
@@ -101,7 +100,7 @@ li.dropdown {
 
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #b16edb;
     box-shadow: 2px 6px 10px black;
     font-weight: bolder;
     z-index: 1;
@@ -154,124 +153,4 @@ footer p {
 	
 	margin: 0;
 	padding: 0;
-}
-
-@media (min-width: 308px) and (max-width: 314px) {
-	.nav a {
-    	padding: 13px 10px;
-  }
-}
-
-@media (min-width: 314px) and (max-width: 322px) {
-	.nav a {
-    	padding: 13px 11px;
-  }
-}
-
-@media (min-width: 322px) and (max-width: 330px) {
-	.nav a {
-    	padding: 13px 12px;
-  }
-}
-
-@media (min-width: 330px) and (max-width: 338px) {
-	.nav a {
-    	padding: 13px 13px;
-	}
-  }
-
-@media (min-width: 338px) and (max-width: 346px) {
-	.nav a {
-    	padding: 13px 14px;
-  }
-}
-
-@media (min-width: 346px) and (max-width: 354px) {
-	.nav a {
-    	padding: 13px 15px;
-  }
-}
-
-@media (min-width: 354px) and (max-width: 362px) {
-	.nav a {
-    	padding: 13px 16px;
-  }
-}
-
-@media (min-width: 362px) and (max-width: 370px) {
-	.nav a {
-    	padding: 13px 17px;
-  }
-}
-
-@media (min-width: 370px) and (max-width: 380px) {
-	.nav a {
-    	padding: 13px 18px;
-  }
-}
-
-@media (min-width: 380px) and (max-width: 386px) {
-	.nav a {
-    	padding: 13px 19px;
-  }
-}
-
-@media (min-width: 386px) and (max-width: 394px) {
-	.nav a {
-    	padding: 13px 20px;
-  }
-}
-
-@media (min-width: 394px) and (max-width: 402px) {
-	.nav a {
-    	padding: 13px 21px;
-  }
-}
-
-@media (min-width: 402px) and (max-width: 410px) {
-	.nav a {
-    	padding: 13px 22px;
-  }
-}
-
-@media (min-width: 410px) and (max-width: 418px) {
-	.nav a {
-    	padding: 13px 23px;
-  }
-}
-
-@media (min-width: 418px) and (max-width: 426px) {
-	.nav a {
-    	padding: 13px 24px;
-  }
-}
-
-@media (min-width: 426px) and (max-width: 434px) {
-	.nav a {
-    	padding: 13px 25px;
-  }
-}
-
-@media (min-width: 434px) and (max-width: 442px) {
-	.nav a {
-    	padding: 13px 26px;
-  }
-}
-
-@media (min-width: 442px) and (max-width: 450px) {
-	.nav a {
-    	padding: 13px 27px;
-  }
-}
-
-@media only screen and (max-height : 240px) {
-	footer {
-		display: none;
-	}
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
 }
