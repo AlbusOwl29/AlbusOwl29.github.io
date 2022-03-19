@@ -70,9 +70,15 @@ header h2 {
     text-align: center;
     padding: 13px 18px;
     text-decoration: none;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #c79fef;
+    border-bottom-color: #c79fef;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #c79fef;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #c79fef;
+	border-right-style: solid;
+	border-right-width: 1px;
     z-index: 1;
 }
 
