@@ -16,15 +16,21 @@ main p {
 	padding-bottom: 2%;
 }
 
+.content {
+
+	display: flex;
+	flex-direction: column;
+}
+
 #info {
 
 	border-width: 1px;
 	border-style: solid;
-	border-color: black;
-	box-shadow: 2px 6px 10px black;
+	border-color: palevioletred;
+	box-shadow: 2px 6px 10px palevioletred;
 	width: 40%;
 	height: 30%;
-	margin: 2% 0% 2% 2%;
+	margin: 1% 0% 1% 2%;
 	background-color: white;
 }
 
@@ -45,98 +51,6 @@ main p {
 	padding: 0 0 0 6%;
 	list-style-type: square;
 }
-
-@media only screen and (max-width: 560px) {
-	#info {
-		width: 96%;
-	}
-
-}
-
-@media only screen and (max-width: 450px) {
-	#info {
-		margin: 2% 0% 4% 2%;
-	}
-
-}
-
-@media (min-width: 560px) and (max-width: 600px) {
-	#info {
-		width: 94%;
-	}
-
-}
-
-@media (min-width: 600px) and (max-width: 640px) {
-	#info {
-		width: 90%;
-	}
-
-}
-
-@media (min-width: 640px) and (max-width: 700px) {
-	#info {
-		width: 84%;
-	}
-
-}
-
-@media (min-width: 700px) and (max-width: 780px) {
-	#info  {
-		width: 76%;
-	}
-
-}
-
-@media (min-width: 780px) and (max-width: 880px) {
-	#info {
-		width: 68%;
-	}
-
-}
-
-@media (min-width: 880px) and (max-width: 960px) {
-	#info {
-		width: 62%;
-	}
-
-}
-
-@media (min-width: 960px) and (max-width: 1040px) {
-	#info {
-		width: 56%;
-	}
-
-}
-
-@media (min-width: 1040px) and (max-width: 1100px) {
-	#info {
-		width: 52%;
-	}
-
-}
-
-@media (min-width: 1100px) and (max-width: 1160px) {
-	#info {
-		width: 50%;
-	}
-
-}
-
-@media (min-width: 1160px) and (max-width: 1260px) {
-	#info {
-		width: 46%;
-	}
-
-}
-
-@media (min-width: 1260px) and (max-width: 1330px) {
-	#info {
-		width: 42%;
-	}
-
-}
-
 
 
 

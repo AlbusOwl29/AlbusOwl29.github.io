@@ -24,10 +24,10 @@ main h2 {
     position: sticky;
 	top: 10%; 
 	text-align: center;
-	border-color: black;
+	border-color: palevioletred;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 2px 6px 10px black;
+	box-shadow: 2px 6px 10px palevioletred;
 	float: right;
 	width: 20%;
 	height: 80vh;
@@ -43,10 +43,10 @@ main h2 {
 	background-color: white;
 	width: 60%;
 	height: 100%;
-	border-color: black;
+	border-color: palevioletred;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 2px 6px 10px black;
+	box-shadow: 2px 6px 10px palevioletred;
 }
 
 #article img {

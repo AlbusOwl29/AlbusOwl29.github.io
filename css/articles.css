@@ -39,10 +39,10 @@ main h2,h3,h4 {
     position: sticky;
 	top: 10%; 
 	text-align: center;
-	border-color: black;
+	border-color: palevioletred;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 2px 6px 10px black;
+	box-shadow: 2px 6px 10px palevioletred;
 	float: right;
 	width: 20%;
 	height: 80vh;
@@ -56,10 +56,10 @@ main h2,h3,h4 {
 	text-align: left;
 	margin: 2% 20% 4% 10%;
 	background-color: white;
-	border-color: black;
+	border-color: palevioletred;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 2px 6px 10px black;
+	box-shadow: 2px 6px 10px palevioletred;
 	width: 64%;
 	height: auto;
 }
