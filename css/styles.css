@@ -37,7 +37,7 @@ main p {
 	border-color: #9651b5;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 2px 6px 10px #9651b5;
+	box-shadow: 2px 6px 10px #9a12cc;
 }
 
 @media (max-width: 860px) {

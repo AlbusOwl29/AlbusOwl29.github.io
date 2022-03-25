@@ -25,10 +25,10 @@ main h2 {
     position: sticky;
 	top: 10%; 
 	text-align: center;
-	border-color: palevioletred;
+	border-color: #9a12cc;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 2px 6px 10px palevioletred;
+	box-shadow: 2px 6px 10px #9a12cc;
 	float: right;
 	width: 20%;
 	height: 80vh;
@@ -44,10 +44,10 @@ main h2 {
 	background-color: white;
 	width: 60%;
 	height: 100%;
-	border-color: palevioletred;
+	border-color: #9a12cc;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 2px 6px 10px palevioletred;
+	box-shadow: 2px 6px 10px #9a12cc;
 }
 
 #guides img {

@@ -26,8 +26,8 @@ main p {
 
 	border-width: 1px;
 	border-style: solid;
-	border-color: palevioletred;
-	box-shadow: 2px 6px 10px palevioletred;
+	border-color: #800cab;
+	box-shadow: 2px 6px 10px #9a12cc;
 	width: 40%;
 	height: 30%;
 	background-color: white;

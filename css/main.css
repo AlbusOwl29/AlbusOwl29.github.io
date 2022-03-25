@@ -10,6 +10,11 @@ body {
 	-webkit-appearance: none;
 }
 
+
+
+
+/* Header styles */
+
 header {
 
 	width: 100%;
@@ -28,11 +33,25 @@ header h2 {
 	padding: 4vh 0 4vh 3vh;
 }
 
+/* End */
+
+
+
+
+/* Container styles */
+
 .container {
 
 	width: 100%;
     height: auto;
 }
+
+/* End */
+
+
+
+
+/* Navbar styles */
 
 .nav {
 	
@@ -134,6 +153,13 @@ li.dropdown {
     display: block;
 }
 
+/* End */
+
+
+
+
+/* Footer styles */
+
 footer {
 
 	display: block;
@@ -150,6 +176,94 @@ footer p {
 	color: #bdcdd6;
 }
 
+/* End */
+
+
+
+
+/* Article_tree_other and Article styles */
+
+.article_tree_other {
+
+	position: -webkit-sticky;
+    position: sticky;
+	top: 10%; 
+	text-align: center;
+	border-color: #9a12cc;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 2px 6px 10px #9a12cc;
+	float: right;
+	width: 20%;
+	height: 80vh;
+	background-color: white;
+	margin: 2% 2% 4% 0;
+	z-index: -1;
+}
+
+.article {
+
+	text-align: left;
+	margin: 2% 20% 4% 10%;
+	background-color: white;
+	border-color: #9a12cc;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 2px 6px 10px #9a12cc;
+	width: 64%;
+	height: auto;
+}
+
+/* End */
+
+
+
+
+/* Article_tree and Article_feed styles */
+
+.article_tree {
+
+	position: -webkit-sticky;
+    position: sticky;
+	top: 10%; 
+	text-align: center;
+	border-color: #9a12cc;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 2px 6px 12px #9a12cc;
+	float: right;
+	width: 20%;
+	height: 80vh;
+	background-color: white;
+	margin: 2% 6% 4% 0;
+	z-index: -1;
+}
+
+#articles {
+
+	text-align: left;
+	margin: 2% 0 4% 2%;
+	background-color: white;
+	width: 60%;
+	height: 100%;
+	border-color: #9a12cc;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 2px 6px 12px #9a12cc
+}
+
+#articles img {
+
+	width: 100%;	
+}
+
+/* End */
+
+
+
+
+/* Other*/
+
 .clear {
 
      clear: both;
@@ -160,3 +274,5 @@ footer p {
 	margin: 0;
 	padding: 0;
 }
+
+/* End */
