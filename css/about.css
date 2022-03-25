@@ -30,8 +30,17 @@ main p {
 	box-shadow: 2px 6px 10px palevioletred;
 	width: 40%;
 	height: 30%;
-	margin: 1% 0% 1% 2%;
 	background-color: white;
+}
+
+.about {
+
+	margin: 2% 0 1% 2%;
+}
+
+.links, .contacts {
+
+	margin: 1% 0% 1% 2%;
 }
 
 #info h3 {

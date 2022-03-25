@@ -1,3 +1,5 @@
+/* Navbar flex */
+
 @media (min-width: 308px) and (max-width: 450px) {
 
 	.nav ul {
@@ -17,11 +19,21 @@
 	}
 }
 
+/* End */
+
+
+/* Footer display: none*/
+
 @media only screen and (max-height : 240px) {
 	footer {
 		display: none;
 	}
 }
+
+/* End */
+
+
+/* Navbar adaptive */
 
 @media (min-width: 308px) and (max-width: 314px) {
 	.nav a {
@@ -131,6 +143,11 @@
   }
 }
 
+/* End */
+
+
+/* About.html blocks */
+
 @media only screen and (max-width: 560px) {
 	#info {
 		width: 96%;
@@ -139,10 +156,14 @@
 }
 
 @media only screen and (max-width: 450px) {
-	#info {
-		margin: 2% 0% 4% 2%;
+
+	.about {
+		margin: 3% 0 4% 2%;
 	}
 
+	.links, .contacts {
+		margin: 1% 0% 4% 2%;
+	}
 }
 
 @media (min-width: 560px) and (max-width: 600px) {
@@ -221,4 +242,6 @@
 	}
 
 }
+
+/* End */
 
