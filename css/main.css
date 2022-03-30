@@ -232,20 +232,11 @@ footer p {
 	border-width: 1px;
 	box-shadow: 2px 6px 10px #9a12cc;
 	animation-duration: 1s;
-    animation-name: drop;
+    animation-name: drop_index;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     z-index: -1;
 }
-
-@keyframes drop {
-
-	0%   {transform: translateY(+100%);}
-	30%   {transform: translateY(-15%);}
-	81% {transform: translateY(+26%);}
-	100% {transform: translateY(0);}
-}
-
 
 /* End */
 
@@ -365,8 +356,8 @@ footer p {
 	height: 30%;
 	background-color: white;
 	animation-duration: 1s;
-    animation-name: drop;
-    animation-iteration-count: 1;
+    animation-name: drop_about;
+    animation-iteration-count: 0.9s;
     animation-timing-function: ease-out;
     z-index: -1;
 }
@@ -397,6 +388,37 @@ footer p {
 
 	padding: 0 0 0 6%;
 	list-style-type: square;
+}
+
+/* End */
+
+
+
+
+/* Animations */
+
+@keyframes drop_index {
+
+	0%   {transform: translateY(+100%);}
+	30%   {transform: translateY(-15%);}
+	81% {transform: translateY(+20%);}
+	100% {transform: translateY(0);}
+}
+
+@keyframes drop_blocks {
+
+	0%   {transform: translateY(+100%);}
+	30%   {transform: translateY(-12%);}
+	81% {transform: translateY(+14%);}
+	100% {transform: translateY(0);}
+}
+
+@keyframes drop_about {
+
+	0%   {transform: translateY(+100%);}
+	30%   {transform: translateY(-20%);}
+	81% {transform: translateY(+35%);}
+	100% {transform: translateY(0);}
 }
 
 /* End */
@@ -698,8 +720,8 @@ footer p {
     	width: 96%;
     	margin-top: 3%;
     	animation-duration: 1s;
-    	animation-name: drop;
-    	animation-iteration-count: 1;
+    	animation-name: drop_blocks;
+    	animation-iteration-count: 0.9s;
     	animation-timing-function: ease-out;
     	z-index: -1;
     }
