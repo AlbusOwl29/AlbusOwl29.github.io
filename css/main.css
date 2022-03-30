@@ -1,7 +1,7 @@
 html, body, .container, main {
 
 	min-height: 100vh;
-	width: 100%;
+	width: auto;
 }
 
 main p {
@@ -230,7 +230,23 @@ footer p {
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 2px 6px 10px #9a12cc;
+	animation-duration: 1s;
+    animation-name: drop;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    z-index: -1;
 }
+
+
+
+@keyframes drop {
+
+	0%   {transform: translateY(+100%);}
+	30%   {transform: translateY(-15%);}
+	81% {transform: translateY(+26%);}
+	100% {transform: translateY(0);}
+}
+
 
 /* End */
 
@@ -348,6 +364,11 @@ footer p {
 	width: 40%;
 	height: 30%;
 	background-color: white;
+	animation-duration: 1s;
+    animation-name: drop;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    z-index: -1;
 }
 
 .about {
