@@ -91,6 +91,7 @@ header h2 {
 	transition: all .4s ease; 
 	position: sticky;
 	position: -webkit-sticky;
+	z-index: 1;
 }
 
 .nav_hidden {
@@ -237,8 +238,6 @@ footer p {
     z-index: -1;
 }
 
-
-
 @keyframes drop {
 
 	0%   {transform: translateY(+100%);}
@@ -321,7 +320,8 @@ footer p {
 	border-color: #9a12cc;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 2px 6px 12px #9a12cc
+	box-shadow: 2px 6px 12px #9a12cc;
+	z-index: -1;
 }
 
 #blocks img {
@@ -690,12 +690,18 @@ footer p {
 /* Article_feed and Guides */
 
 @media (min-width: 0px) and (max-width: 740px) {
+	
 	.article_tree {
 		display: none;
 	}
 	#blocks  {
     	width: 96%;
     	margin-top: 3%;
+    	animation-duration: 1s;
+    	animation-name: drop;
+    	animation-iteration-count: 1;
+    	animation-timing-function: ease-out;
+    	z-index: -1;
     }
 }
 
