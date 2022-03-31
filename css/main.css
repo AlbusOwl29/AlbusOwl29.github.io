@@ -445,6 +445,14 @@ footer p {
 	100% {transform: translateX(0);}
 }
 
+@keyframes drop_article_mobile {
+
+	0%   {transform: translateY(+100%);}
+	30%   {transform: translateY(-2%);}
+	81% {transform: translateY(+2%);}
+	100% {transform: translateY(0);}
+}
+
 @keyframes drop_tree {
 
 	0%   {transform: translateX(+100%);}
@@ -840,6 +848,10 @@ footer p {
     .article  {
         width: 96%;
         margin: 2% 2% 4% 2%;
+        animation-duration: 1s;
+    	animation-name: drop_article_mobile;
+    	animation-iteration-count: 0.9s;
+    	animation-timing-function: ease-out;
     }
 }
 
