@@ -30,7 +30,7 @@ body {
 	background-color: #c79fef;
 	scroll-behavior: smooth;
     -webkit-text-size-adjust: none;
-	-webkit-overflow-scrolling: touch;  
+	-webkit-overflow-scrolling: touch;
 	-webkit-appearance: none;
 }
 
@@ -260,6 +260,10 @@ footer p {
 	height: 80vh;
 	background-color: white;
 	margin-right: 2%;
+	animation-duration: 0.9s;
+    animation-name: drop_tree_other;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
 	z-index: -1;
 }
 
@@ -274,6 +278,10 @@ footer p {
 	box-shadow: 2px 6px 10px #9a12cc;
 	width: 64%;
 	height: auto;
+	animation-duration: 0.9s;
+	animation-name: drop_article;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
 }
 
 /* End */
@@ -298,6 +306,10 @@ footer p {
 	height: 80vh;
 	background-color: white;
 	margin-right: 6%;
+	animation-duration: 1s;
+    animation-name: drop_tree;
+    animation-iteration-count: 0.9s;
+    animation-timing-function: ease-out;
 	z-index: -1;
 }
 
@@ -312,6 +324,10 @@ footer p {
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 2px 6px 12px #9a12cc;
+	animation-duration: 1s;
+    animation-name: drop_blocks;
+    animation-iteration-count: 0.9s;
+    animation-timing-function: ease-out;
 	z-index: -1;
 }
 
@@ -357,7 +373,7 @@ footer p {
 	background-color: white;
 	animation-duration: 1s;
     animation-name: drop_about;
-    animation-iteration-count: 0.9s;
+    animation-iteration-count: 1;
     animation-timing-function: ease-out;
     z-index: -1;
 }
@@ -405,12 +421,44 @@ footer p {
 	100% {transform: translateY(0);}
 }
 
-@keyframes drop_blocks {
+@keyframes drop_blocks_mobile {
 
 	0%   {transform: translateY(+100%);}
 	30%   {transform: translateY(-12%);}
 	81% {transform: translateY(+14%);}
 	100% {transform: translateY(0);}
+}
+
+@keyframes drop_blocks {
+
+	0%   {transform: translateX(-100%);}
+	30%   {transform: translateX(+12%);}
+	81% {transform: translateX(-14%);}
+	100% {transform: translateX(0);}
+}
+
+@keyframes drop_article {
+
+	0%   {transform: translateX(-100%);}
+	30%   {transform: translateX(+2%);}
+	81% {transform: translateX(-14%);}
+	100% {transform: translateX(0);}
+}
+
+@keyframes drop_tree {
+
+	0%   {transform: translateX(+100%);}
+	30%   {transform: translateX(-14%);}
+	81% {transform: translateX(+14%);}
+	100% {transform: translateX(0);}
+}
+
+@keyframes drop_tree_other {
+
+	0%   {transform: translateX(+100%);}
+	30%   {transform: translateX(-8%);}
+	81% {transform: translateX(+14%);}
+	100% {transform: translateX(0);}
 }
 
 @keyframes drop_about {
@@ -720,7 +768,7 @@ footer p {
     	width: 96%;
     	margin-top: 3%;
     	animation-duration: 1s;
-    	animation-name: drop_blocks;
+    	animation-name: drop_blocks_mobile;
     	animation-iteration-count: 0.9s;
     	animation-timing-function: ease-out;
     	z-index: -1;
