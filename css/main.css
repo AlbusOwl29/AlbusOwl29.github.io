@@ -56,7 +56,7 @@ header {
 header h2 {
 
 	color: #fff;
-	padding: 4vh 0 4vh 3vw;
+	padding: 4vh 0 4vh 1vw;
 }
 
 /* End */
@@ -527,6 +527,11 @@ footer p {
 
 
 /* Navbar adaptive */
+
+@media (min-width: 275px) and (max-width: 920px) {
+
+	header h2 {padding: 4vh 0 4vh 4vw;}
+}
 
 @media (min-width: 274px) and (max-width: 282px) {
 	.nav a {
