@@ -612,46 +612,45 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 @media (min-width: 0px) and (max-width: 740px) {
 	
 	.article_tree {display: none;}
-	#blocks  {
-    width: 96%;
-    margin-top: 3%;
-    animation-duration: 1s;
-    animation-name: drop_blocks_mobile;
-    animation-iteration-count: 0.9s;
-    animation-timing-function: ease-out;
-    z-index: -1;
-    }
+	#blocks {
+	width: 96%;
+	margin-top: 3%;
+	animation-duration: 1s;
+	animation-name: drop_blocks_mobile;
+	animation-iteration-count: 0.9s;
+	animation-timing-function: ease-out;
+	z-index: -1;}
 }
 
 @media (min-width: 740px) and (max-width: 840px) {
 
 	.article_tree  {width: 30%; margin: 0 2% 0 0;}
-    #blocks  {width: 62%;}
+	#blocks {width: 62%;}
 }
 
 @media (min-width: 840px) and (max-width: 920px) {
 
 	.article_tree  {width: 28%; margin: 0 2% 0 0;}
-    #blocks  {width: 64%;}
+	#blocks {width: 64%;}
 }
 
 @media (min-width: 920px) and (max-width: 1000px) {
 
 	.article_tree  {width: 26%;margin: 0 2% 0 0;}
-    #blocks  {width: 64%;}
+	#blocks {width: 64%;}
 }
 
 @media (min-width: 1000px) and (max-width: 1100px) {
-
+	
 	.article_tree  {width: 23%; margin: 0 2% 0 0;}
-    #blocks  {width: 64%;}
+	#blocks {width: 64%;}
 }
 
 
 @media (min-width: 1100px) and (max-width: 1260px) {
 
 	.article_tree  {width: 22%; margin: 0 2% 0 0;}
-    #blocks  {width: 64%;}
+	#blocks  {width: 64%;}
 }
 
 /* End */
@@ -663,33 +662,33 @@ footer p {text-align: left; padding: 2vh 2vh; color: #bdcdd6;}
 
 @media (min-width: 308px) and (max-width: 740px) {
 
-    .article_tree_other {display: none;}
-    .article  {
+	.article_tree_other {display: none;}
+	.article  {
 	width: 96%;
 	margin: 2% 2% 4% 2%;
 	animation-duration: 1s;
-    animation-name: drop_article_mobile;
-    animation-iteration-count: 0.9s;
-    animation-timing-function: ease-out;
+	animation-name: drop_article_mobile;
+	animation-iteration-count: 0.9s;
+	animation-timing-function: ease-out;
     }
 }
 
 @media (min-width: 740px) and (max-width: 860px) {
 
 	.article_tree_other  {width: 27%;}
-  	.article  {margin: 2% 2% 4% 2%;}
+	.article  {margin: 2% 2% 4% 2%;}
 }
 
 @media (min-width: 860px) and (max-width: 980px) {
 
 	.article_tree_other  {width: 26%;}
-  	.article  {margin: 2% 2% 4% 2%;}
+	.article  {margin: 2% 2% 4% 2%;}
 }
 
 @media (min-width: 980px) and (max-width: 1100px) {
 
 	.article_tree_other  {width: 25%;}
-  	.article  {margin: 2% 2% 4% 2%;}
+	.article  {margin: 2% 2% 4% 2%;}
 }
 
 
