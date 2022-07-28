@@ -43,6 +43,8 @@ header h2 {color: #fff; padding: 4vh 0 4vh 1vw;}
 
 /* Navbar styles */
 
+.nav_hidden {transform: translateY(-300%);}
+
 .nav {
 	
 	top: 0;
@@ -96,7 +98,6 @@ header h2 {color: #fff; padding: 4vh 0 4vh 1vw;}
 	border-width: 1px;
 }
 
-.nav_hidden {transform: translateY(-300%);}
 .nav ul {list-style-type: none; overflow: hidden; background-color: #000;}
 .nav li {float: left;}
 .nav li a:hover:not(.active) {background-color: #d90f0f;}
